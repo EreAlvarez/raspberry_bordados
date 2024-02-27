@@ -1,0 +1,85 @@
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 100%;
+    font-size: 45px;
+}
+header{
+    background-image: url(imagenes/fondo.png);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction:row;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header ul li {
+    margin: 35px;
+}
+header img{
+  margin: 30px;
+  width: 250px;
+}
+.contacto img{
+    width: 45px;
+    align-items: center;
+}
+a{
+    list-style-type: none;
+}
+img{
+    width: 180px;
+}
+h1{
+    font-size: 40px;
+    color: rgb(194, 28, 64);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+p{
+    font-size: 20px;
+    color: rgb(51, 47, 47);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#ubicacion{
+display: flex;
+flex-direction:row;
+align-items: center;
+}
+#ubicacion iframe{
+    padding-left: 450px;
+    margin: 10px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    background-color:rgb(229, 193, 197);
+}
+
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja img{
+    border-radius: 50%;
+}
+footer p{
+    font-family:monospace;
+    font-size: 20px;
+background-color: rgb(229, 193, 197);
+}
